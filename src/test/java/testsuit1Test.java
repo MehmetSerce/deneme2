@@ -14,6 +14,7 @@ public class testsuit1Test {
     public  void test1()
     {
         System.out.println("test deneme1");
+        Assert.assertEquals("was","saw");
     }
 
 
@@ -21,11 +22,12 @@ public class testsuit1Test {
     public  void test2()
     {
         //okayyyyyyy
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Jenkins\\chromedriver\\chromedriver.exe");
+        /*System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Jenkins\\chromedriver\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         //System.setProperty("webdriver.ie.driver", "C:\\Users\\User\\Desktop\\IEDriverServer\\IEDriverServer.exe");
-       /*System.setProperty("webdriver.ie.driver", "C:\\Program Files (x86)\\Jenkins\\IEDriverServer.exe");
-        WebDriver driver=new InternetExplorerDriver();*/
+       */
+        System.setProperty("webdriver.ie.driver", "C:\\Program Files (x86)\\Jenkins\\IEDriverServer.exe");
+        WebDriver driver=new InternetExplorerDriver();
         driver.get("https://www.google.com.tr");
         long sleepTime = 10000;
       /*  WebDriverWait wait=new WebDriverWait(driver, 10);
