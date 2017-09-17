@@ -20,7 +20,7 @@ public class testsuit1Test {
     @Test
     public  void test2()
     {
-        //okayyy
+        //okayyyyy
         System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Jenkins\\chromedriver\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         //System.setProperty("webdriver.ie.driver", "C:\\Users\\User\\Desktop\\IEDriverServer\\IEDriverServer.exe");
