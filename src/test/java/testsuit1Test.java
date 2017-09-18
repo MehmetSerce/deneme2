@@ -21,18 +21,18 @@ public class testsuit1Test {
     @Test
     public  void test2()
     {
-        System.setProperty("webdriver.gecko.driver", "C:\\Program Files (x86)\\Jenkins\\geckodriver\\geckodriver.exe");
-        WebDriver driver=new FirefoxDriver();
+        /*System.setProperty("webdriver.gecko.driver", "C:\\Program Files (x86)\\Jenkins\\geckodriver\\geckodriver.exe");
+        WebDriver driver=new FirefoxDriver();*/
 
-        /*System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Jenkins\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Jenkins\\chromedriver\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         //System.setProperty("webdriver.ie.driver", "C:\\Users\\User\\Desktop\\IEDriverServer\\IEDriverServer.exe");
-       */
+
 
        /*System.setProperty("webdriver.ie.driver", "C:\\Program Files (x86)\\Jenkins\\IEDriverServer.exe");
         WebDriver driver=new InternetExplorerDriver();*/
 
-       
+
         driver.get("https://www.google.com.tr");
 
 
